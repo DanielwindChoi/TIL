@@ -57,7 +57,7 @@
 
   - touch : 파일을 생성하라.
 
-    ```
+    ```sh
     touch bbb.txt
     touch .a.txt
     touch .hidden.txt(.이 파일 앞에 기입되면 숨긴 파일로 생성됨)
@@ -69,7 +69,7 @@
 
   - mkdir : make directory, 폴더를 생성하라.
 
-    ```
+    ```sh
      mkdir CLI
     ```
 
@@ -79,7 +79,7 @@
 
   - mv : 파일을 이동하라
 
-    ```
+    ```sh
     mv bbb.txt CLI/
     ```
 
@@ -89,32 +89,32 @@
 
   - cd : change directory, 선택한 폴더로 이동하라
 
-    ```
-    cd CLI(CLI 폴더로 이동하라)
-    cd .. (상위 폴더로 이동하라)
+    ```sh
+    cd CLI # CLI 폴더로 이동하라
+    cd .. # 상위 폴더로 이동하라
       - 최상위 폴더는 루트(/)라고 부름
-    cd (홈 폴더로 이동하라)
+    cd # 홈 폴더로 이동하라
     ```
 
     
 
   - l(엘)s : 그 폴더 내의 파일을 보여라
 
-    ```
+    ```sh
     ls
-    ls -a : 숨겨진 파일을 포함하여 모든 파일을 보여라
+    ls -a # 숨겨진 파일을 포함하여 모든 파일을 보여라
     ```
 
     
 
   - rm : 삭제하라
 
-    ```
+    ```sh
     rm aaa.txt
-    rm *.txt(\*별표는 와일드카드라고 부름) 확장자가 .txt인 모든 파일을 삭제하라
-    rm cli(cli-대소문자 구별X), 삭제 안됨
-    rm -r cli 폴더 삭제됨
-    rm -rf .git .git 저장소 삭제
+    rm *.txt # \*별표는 와일드카드라고 부름 확장자가 .txt인 모든 파일을 삭제하라 
+    rm cli # (cli-대소문자 구별X), 삭제 안됨
+    rm -r # cli 폴더 삭제됨
+    rm -rf .git #.git 저장소 삭제
     ```
     
     
