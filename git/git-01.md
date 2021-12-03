@@ -2,3 +2,7 @@
 ```sh
 $ git clone <URL>
 ```
+
+```sh
+$ git pull origin master
+```
